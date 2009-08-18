@@ -14,6 +14,7 @@ Obsoletes: mozilla-firefox-ext-foxmarks < %{version}-%{release}
 Provides: mozilla-firefox-ext-foxmarks = %{version}-%{release}
 Obsoletes: firefox-ext-foxmarks < %{version}-%{release}
 Provides: firefox-ext-foxmarks = %{version}-%{release}
+BuildRequires: firefox-devel
 
 %description
 If you use Firefox on more than one computer, you'll want Xmarks. Install
