@@ -2,14 +2,14 @@
 
 Summary: Xmarks Bookmark Synchronizer extension for firefox
 Name: firefox-ext-xmarks
-Version: 3.3.3
-Release: %mkrel 3
+Version: 3.4.6
+Release: %mkrel 1
 License: GPLv2+
 Group: Networking/WWW
 URL: https://addons.mozilla.org/en-US/firefox/addon/2410
-Source: http://releases.mozilla.org/pub/mozilla.org/addons/2410/xmarks-%{version}.xpi
+Source: http://releases.mozilla.org/pub/mozilla.org/addons/2410/xmarks-%{version}-fx.xpi
 BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
-Requires: mozilla-firefox = %{firefox_epoch}:%{firefox_version}
+Requires: firefox = %{firefox_epoch}:%{firefox_version}
 Obsoletes: mozilla-firefox-ext-foxmarks < %{version}-%{release}
 Provides: mozilla-firefox-ext-foxmarks = %{version}-%{release}
 Obsoletes: firefox-ext-foxmarks < %{version}-%{release}
