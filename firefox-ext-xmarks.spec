@@ -1,6 +1,6 @@
 Summary: Xmarks Bookmark Synchronizer extension for firefox
 Name: firefox-ext-xmarks
-Version: 3.9.9
+Version: 3.9.10
 Release: %mkrel 1
 License: GPLv2+
 Group: Networking/WWW
